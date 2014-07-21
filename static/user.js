@@ -1,3 +1,4 @@
 setTimeout(function(){
-  new tty.Window();
+  var win = new tty.Window();
+  win.maximize();
 }.bind(this), 500);
